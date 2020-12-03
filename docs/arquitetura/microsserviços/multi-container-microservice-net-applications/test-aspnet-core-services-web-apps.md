@@ -186,7 +186,7 @@ services:
 So, to run the functional/integration tests you must first run this command, from the solution test folder:
 
 ```console
-docker-compose -f docker-compose-test.yml -f docker-compose-test.override.yml up
+docker-compose -f docker-compose-tests.yml -f docker-compose-tests.override.yml up
 ```
 
 As you can see, these docker-compose files only start the Redis, RabbitMQ, SQL Server and MongoDB microservices.
